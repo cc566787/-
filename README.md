@@ -28,21 +28,21 @@ SpringBoot 项目（公众号推送早安问候以及天气预报）
 ```
 
 ## 关于百度地图开放平台
-百度地图开放平台：https://lbsyun.baidu.com/apiconsole/center#/home
-天气服务接口文档：https://lbs.baidu.com/index.php?title=webapi/weather
-创建应用（选择服务端）：https://lbsyun.baidu.com/apiconsole/key#/home
+百度地图开放平台：https://lbsyun.baidu.com/apiconsole/center#/home  
+天气服务接口文档：https://lbs.baidu.com/index.php?title=webapi/weather  
+创建应用（选择服务端）：https://lbsyun.baidu.com/apiconsole/key#/home  
 注意：在 src/main/resources/application.yaml 里面填写"应用AK"和"城市ID/行政编码"，如合肥行政代码是340100
 
 ## 关于彩虹屁平台
-注册天行数据账号并申请接口：https://www.tianapi.com/
-注意：在 src/main/resources/application.yaml 里面填写"apiKey"
+注册天行数据账号并申请接口：https://www.tianapi.com/  
+注意：在 src/main/resources/application.yaml 里面填写"apiKey"  
 
 ## 如何运行
 启动项目后，打开浏览器输入  http://localhost/test  即可手动推送消息。  
 注意：默认设定每天早上8点推送消息，如需修改可去 Task 类上修改 [Cron表达式生成器](https://www.bejson.com/othertools/cron/)  
 
 ## 打包发布：关于 SpringBoot 项目编译打包，这里就不用多说了
-1. 方法一：通过 IDEA 的方式
+1. 方法一：通过 IDEA 的方式  
 2. 方式二：通过 maven 的方式
 
 ## 温馨提示
