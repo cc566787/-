@@ -3,7 +3,7 @@ server:
 wechat:
   appId: '微信公众平台_wx9729a45771888ac0'
   secret: '微信公众平台_1a6ef60ca89cc239602f1cf68a10aa86'
-  userId: '微信公众平台_wx9729a45771888ac0'
+  userId: '微信公众平台_ovNIa67kXk4VLo17LceaDKLSxVRE'
   templateId: '微信公众平台_dqcHLZ2Rp_OT8qPyFiucrRviASTg8hQu66IxyVCleFw'
   district_id: '百度地图开放平台_371100'
   ak: '百度地图开放平台_8dfUvigxooAD255U3wK7RqX2yNkzcGVO'
